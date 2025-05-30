@@ -6,7 +6,7 @@ from src.lstm_model import train_lstm_model
 from src.signal_generator import generate_signals
 import numpy as np
 import pandas as pd
-st.title("📈 AI Trading Signal Generator")
+st.title("📈 AI Trading Signal Generator By Kumar Sachin")
 
 ticker = st.text_input("Enter stock ticker", "AAPL")
 df = get_stock_data(ticker)
